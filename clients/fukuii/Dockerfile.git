@@ -3,7 +3,7 @@
 FROM eclipse-temurin:21-jdk-jammy AS builder
 
 ARG github=chris-mercer/fukuii
-ARG tag=alpha
+ARG tag=olympia
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         curl git gnupg2 ca-certificates unzip \

@@ -3,7 +3,7 @@
 ## Builder stage: Compiles besu from a git repository
 FROM ubuntu:22.04 as builder
 
-ARG tag=etc
+ARG tag=olympia
 ARG github=chris-mercer/besu
 
 RUN echo "installing java on ubuntu base image" \
