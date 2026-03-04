@@ -10,3 +10,8 @@ workspace
 simulators/**/target
 hivesim-rs/Cargo.lock
 hivesim-rs/target
+
+# Local client symlinks for ETC builds
+clients/core-geth/core-geth
+clients/besu-etc/besu
+clients/fukuii/fukuii-client

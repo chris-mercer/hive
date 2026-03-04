@@ -1,0 +1,12 @@
+- client: core-geth
+  dockerfile: local
+  build_args:
+    local_path: core-geth
+- client: besu-etc
+  dockerfile: local
+  build_args:
+    local_path: besu
+- client: fukuii
+  dockerfile: local
+  build_args:
+    local_path: fukuii-client
